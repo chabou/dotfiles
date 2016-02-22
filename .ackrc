@@ -1,0 +1,17 @@
+--type-add=ruby=.haml,.rake,.ru
+--type-add=html=.html.erb,.html.haml,.mustache,.jst,.ejs,.html.slim
+--type-add=js=.js.erb,.coffee
+--type-add=css=.sass,.less,.scss
+--type-add=shell=.zsh,.bash,.sh
+--type-set=markdown=.markdown,.md
+--ignore-dir=vendor
+--ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=build
+--ignore-dir=doc
+--ignore-dir=public/assets
+--sort-files
+--color
+--follow
+--group
+--smart-case
