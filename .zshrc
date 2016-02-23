@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
+  export ZSH=/Users/$USER/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,7 +50,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew ruby jsontools npm osx rake-fast rsync ssh-agent sublime vagrant z)
+plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant z)
 
 # User configuration
 

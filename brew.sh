@@ -75,5 +75,7 @@ brew install zopfli
 
 brew install z
 
+brew install nodejs 
+
 # Remove outdated versions from the cellar.
 brew cleanup
