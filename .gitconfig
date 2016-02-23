@@ -1,0 +1,39 @@
+[push]
+	default = current
+
+[merge]
+	defaultToUpstream = true
+	tool = opendiff
+
+[alias]
+	tlog = log --graph --oneline --date-order --decorate --color
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ci = commit
+	df = diff --color --color-words --abbrev
+	# Show the diff between the latest commit and the current state
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+
+[core]
+	editor = vim
+	# insanely beautiful diffs
+	pager = bash -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
+
+[mergetool]
+	keepBackup = false
+
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "diff-highlight"]
+	oldNormal = "red bold"
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+
+[color]
+	ui = always
