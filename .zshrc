@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -58,6 +58,7 @@ plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant z)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.functions
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

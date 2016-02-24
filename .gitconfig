@@ -1,9 +1,14 @@
 [push]
 	default = current
+	followTags = true
 
 [merge]
 	defaultToUpstream = true
 	tool = opendiff
+	log = true
+
+[help]
+	autocorrect = 1
 
 [alias]
 	tlog = log --graph --oneline --date-order --decorate --color
@@ -37,3 +42,7 @@
 
 [color]
 	ui = always
+
+# use separate file for username / github token / etc
+[include]
+  path = ~/.gitconfig.local
