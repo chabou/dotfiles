@@ -1,0 +1,34 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".gitkeep",
+		"dump.rdb"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"coverage",
+		"log",
+		"tmp"
+	],
+	"font_size": 14,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Javascript",
+		"Markdown"
+	],
+	"remember_open_files": false,
+	"save_on_focus_lost": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
