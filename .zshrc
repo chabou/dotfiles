@@ -60,8 +60,11 @@ plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant z)
   export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+
 source $ZSH/oh-my-zsh.sh
 source $HOME/.functions
+# load ~/.zshrc.local
+[[ -s $HOME/.zshrc.local ]] && source "$HOME/.zshrc.local"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -87,3 +90,4 @@ source $HOME/.functions
 # Example aliases
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
+
