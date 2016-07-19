@@ -53,7 +53,7 @@ ZSH_THEME_TERM_TAB_TITLE_IDLE="%m %15<..<%~%<<"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant z)
+plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant zsh-syntax-highlighting)
 
 # User configuration
 
