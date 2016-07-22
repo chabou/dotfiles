@@ -77,5 +77,7 @@ brew install z
 
 brew install nodejs 
 
+brew install ccat
+
 # Remove outdated versions from the cellar.
 brew cleanup
