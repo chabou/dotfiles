@@ -43,11 +43,9 @@
 [color]
 	ui = always
 
+[credential]
+	helper = osxkeychain
+
 # use separate file for username / github token / etc
 [include]
   path = ~/.gitconfig.local
-[user]
-	name = CHaBou
-	email = chabup@delean.fr
-[credential]
-	helper = osxkeychain
