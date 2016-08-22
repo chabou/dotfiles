@@ -57,7 +57,7 @@ plugins=(git brew ruby jsontools npm osx rake-fast rsync sublime vagrant z zsh-s
 
 # User configuration
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
+  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
