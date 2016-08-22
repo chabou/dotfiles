@@ -49,3 +49,5 @@
 [user]
 	name = CHaBou
 	email = chabup@delean.fr
+[credential]
+	helper = osxkeychain
