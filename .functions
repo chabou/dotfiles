@@ -180,3 +180,11 @@ lmv(){
     _target="${_path%/}/$2"
     mv -- "$1" "$_target"
 }
+
+function ip2long() {
+ if [ `echo $1 | tr '.' '\n' | wc -l` != "4" ]; then
+  echo "No real ip given"
+  exit
+ fi
+ echo "$1" | awk -F\. '{print ($4)+($3*256)+($2*256*256)+($1*256*256*256)}'
+}
