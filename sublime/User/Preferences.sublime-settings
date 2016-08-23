@@ -23,7 +23,9 @@
 	"ignored_packages":
 	[
 		"Javascript",
-		"Markdown"
+		"Markdown",
+		"MarkdownEditing",
+		"Oceanic Next Color Scheme"
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
