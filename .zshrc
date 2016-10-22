@@ -75,6 +75,7 @@ source $HOME/.functions
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -91,3 +92,5 @@ source $HOME/.functions
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
 
+
+export PATH="$HOME/.yarn/bin:$PATH"
