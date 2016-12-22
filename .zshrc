@@ -90,4 +90,4 @@ source $HOME/.functions
 # Example aliases
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
-
+alias rake='noglob rake'
