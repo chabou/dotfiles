@@ -98,13 +98,19 @@ module.exports = {
           username: 1,
           hostname: 2,
           path: 3
+        },{
+          // my prompt
+          pattern: '^([a-z_][a-z0-9_\\-\\.]*[\\$]?)@(\\S+): ([\\/~].*)',
+          username: 1,
+          hostname: 2,
+          path: 3
         }
       ],
       profiles: [{
           triggers: [
             'root@',
           ],
-          backgroundColor: '#400'
+          backgroundColor: '#440'
         },
         {
           triggers: [
