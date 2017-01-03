@@ -22,7 +22,7 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    css: '.splitpane_divider {background-color: rgb(159, 51, 255) !important;}',
 
     // custom css to embed in the terminal window
     termCSS: '',
@@ -109,14 +109,22 @@ module.exports = {
       profiles: [{
           triggers: [
             'root@',
+            '@puppet02',
+            '@admw01'
           ],
-          backgroundColor: '#440'
+          backgroundColor: 'rgba(64,0,0,0.3)'
         },
         {
           triggers: [
-            '@scotchbox'
+            '@home'
           ],
-          backgroundColor: '#040'
+          backgroundColor: 'rgba(0,64,0,0.3)'
+        },
+        {
+          triggers: [
+            '@js'
+          ],
+          backgroundColor: 'rgba(0,0,64,0.3)'
         },
         {
           triggers: [
@@ -197,7 +205,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-autoprofile', "hyperline", "hyper-font-smoothing", "hypercwd"],
+  plugins: ['hyper-autoprofile', "hyperline", "hyper-font-smoothing", "hypercwd", "hyper-simple-vibrancy"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
