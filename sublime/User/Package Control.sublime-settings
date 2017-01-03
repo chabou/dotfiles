@@ -5,13 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"ANSIescape",
 		"Babel",
 		"EasyDiff",
+		"HTML-CSS-JS Prettify",
 		"Markdown Preview",
 		"Package Control",
 		"Pretty JSON",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-xo",
 		"Theme - Spacegray"
 	]
 }

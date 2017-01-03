@@ -13,10 +13,22 @@
 		{
 			"eslint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
+				"excludes":
+				[
+				]
+			},
+			"xo":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"disable_if_not_dependency": true,
+				"enable_if_dependency": true,
 				"excludes":
 				[
 				]
