@@ -35,5 +35,6 @@ sublime/User/*.last-run
 sublime/User/*.ca-list
 sublime/User/*.ca-bundle
 sublime/User/*.system-ca-bundle
+sublime/User/*..merged-ca-bundle
 sublime/User/*.cache
 sublime/User/*.ca-certs
