@@ -91,5 +91,9 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
+
+autoload -U promptinit; promptinit
+prompt pure
+
 alias rake='noglob rake'
 export PATH="$HOME/.yarn/bin:$PATH"
