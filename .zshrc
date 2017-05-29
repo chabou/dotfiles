@@ -6,7 +6,7 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="tjkirch"
+#ZSH_THEME="tjkirch"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -93,7 +93,7 @@ export EDITOR='vim'
 # alias ohmyzsh="st ~/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
-prompt pure
+prompt pure-now
 
 alias rake='noglob rake'
 export PATH="$HOME/.yarn/bin:$PATH"

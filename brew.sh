@@ -76,8 +76,12 @@ brew install zopfli
 brew install z
 
 brew install nodejs 
+brew install yarn
 
 brew install ccat
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Additional npm installs
+yarn add global pure-now
