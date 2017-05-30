@@ -38,3 +38,5 @@ sublime/User/*.system-ca-bundle
 sublime/User/*..merged-ca-bundle
 sublime/User/*.cache
 sublime/User/*.ca-certs
+
+node_modules
