@@ -188,3 +188,19 @@ function ip2long() {
  fi
  echo "$1" | awk -F\. '{print ($4)+($3*256)+($2*256*256)+($1*256*256*256)}'
 }
+
+function tiny() {
+  if [ -z ${TINYPNG_KEY+x} ]
+  then
+    echo "No TinyPNG key found"
+    return 
+  fi
+  for file in $@
+  do
+    echo "Tinyfying $file"
+    Cfile=`curl https://api.tinify.com/shrink --user api:$TINYPNG_KEY --data-binary @"${file}" --dump-header /dev/stdout --silent | grep Location | awk '{print $2 }'`
+    Cfile=${Cfile// }
+    Cfile=`echo -n "$Cfile"| sed s/.$//`
+    curl ${Cfile} -o $file --silent
+  done
+}
