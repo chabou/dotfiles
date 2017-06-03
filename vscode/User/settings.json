@@ -1,0 +1,8 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
+{
+      "editor.tabSize": 2,
+      "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+      "editor.fontFamily": "Fira Code",
+      "editor.fontSize": 14,
+      "editor.fontLigatures": true
+}
