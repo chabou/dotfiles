@@ -184,3 +184,5 @@ alias urldecode_json='xargs -0 node -e "console.log(decodeURIComponent(process.a
 alias urlencode_json='xargs -0 node -e "console.log(encodeURIComponent(process.argv[1]))"'
 alias which-command=whence
 alias z='_z 2>&1'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

@@ -74,6 +74,7 @@ brew install webkit2png
 brew install zopfli
 
 brew install z
+brew install fzf
 
 brew install nodejs 
 brew install yarn
