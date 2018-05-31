@@ -43,6 +43,6 @@ if [ -f ~/.ssh/id_rsa ]; then
     ssh-add ~/.ssh/id_rsa
 fi
 
-source ~/.profile
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
