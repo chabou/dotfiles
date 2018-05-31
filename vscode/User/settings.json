@@ -1,13 +1,25 @@
-// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
 {
+  // Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
   "editor.tabSize": 2,
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "editor.minimap.enabled": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "javascript.validate.enable": false,
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
-  "eslint.autoFixOnSave": true
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  //"javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+
+  "gitlens.keymap": "chorded",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  }
 }
