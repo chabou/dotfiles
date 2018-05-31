@@ -85,4 +85,4 @@ brew install ccat
 brew cleanup
 
 # Additional npm installs
-yarn add global pure-now
+yarn add global pure-prompt-now
