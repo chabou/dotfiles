@@ -98,4 +98,7 @@ prompt pure-now
 alias rake='noglob rake'
 export PATH="$HOME/.yarn/bin:$PATH"
 
+export LC_ALL=fr_FR.UTF-8
+export LANG=fr_FR.UTF-8
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
