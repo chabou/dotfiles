@@ -104,4 +104,4 @@ brew cask install google-drive-file-stream
 brew cleanup
 
 # Additional npm installs
-yarn add global pure-prompt-now
+yarn global add pure-prompt-now
