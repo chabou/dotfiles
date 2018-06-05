@@ -39,10 +39,6 @@ if [ -f /usr/local/etc/bash_completion ]; then
   . /usr/local/etc/bash_completion
 fi
 
-if [ -f ~/.ssh/id_rsa ]; then
-    ssh-add ~/.ssh/id_rsa
-fi
-
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
