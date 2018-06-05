@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 
 # Install command-line tools using Homebrew.
 
@@ -80,6 +82,23 @@ brew install nodejs
 brew install yarn
 
 brew install ccat
+brew install httpie
+
+
+
+# Cask
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap homebrew/cask
+brew cask install alfred
+brew cask install hyper
+brew cask install visual-studio-code
+brew cask install now
+brew cask install slack
+brew cask install whatsapp
+brew cask install google-drive-file-stream
+
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
