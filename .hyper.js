@@ -6,7 +6,7 @@ module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: "stable",
+    updateChannel: "canary",
 
     // default font size in pixels for all tabs
     fontSize: 12,
@@ -47,7 +47,7 @@ module.exports = {
     borderColor: "#333",
 
     // custom CSS to embed in the main window
-    css: "",
+    css: ".splitpane_divider {background-color: #8b56ee !important;}",
 
     // custom CSS to embed in the terminal window
     termCSS: "",
