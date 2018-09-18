@@ -21,5 +21,12 @@
     "suppressNoRepositoryWarning": false,
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "breadcrumbs.enabled": true,
+  "files.autoSave": "onWindowChange",
+  "javascript.autoClosingTags": false,
+  "javascript.format.enable": false,
+  "auto-close-tag.enableAutoCloseTag": false,
+  "auto-close-tag.SublimeText3Mode": true
 }
