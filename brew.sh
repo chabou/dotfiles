@@ -83,7 +83,7 @@ brew install yarn
 
 brew install ccat
 brew install httpie
-
+brew install telnet
 
 
 # Cask
@@ -98,6 +98,7 @@ brew cask install slack
 brew cask install whatsapp
 brew cask install google-drive-file-stream
 brew cask install spotify
+brew cask install docker
 
 
 brew tap caskroom/fonts
