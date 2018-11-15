@@ -27,6 +27,18 @@
   "files.autoSave": "onWindowChange",
   "javascript.autoClosingTags": false,
   "javascript.format.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "auto-close-tag.enableAutoCloseTag": false,
-  "auto-close-tag.SublimeText3Mode": true
+  "auto-close-tag.SublimeText3Mode": true,
+  "html.autoClosingTags": false,
+  "typescript.autoImportSuggestions.enabled": false,
+  "git.autofetch": true,
+  "editor.renderWhitespace": "none",
+  "githubPullRequests.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
+    }
+  ]
 }
