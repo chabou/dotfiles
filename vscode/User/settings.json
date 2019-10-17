@@ -33,12 +33,9 @@
   "html.autoClosingTags": false,
   "typescript.autoImportSuggestions.enabled": false,
   "git.autofetch": true,
-  "editor.renderWhitespace": "none",
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ]
+  "editor.renderWhitespace": "all",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "prettier.printWidth": 120,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

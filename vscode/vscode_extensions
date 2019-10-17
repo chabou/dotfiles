@@ -2,6 +2,7 @@ aaron-bond.better-comments
 blanu.vscode-styled-jsx
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
+DotJoshJohnson.xml
 eamodio.gitlens
 eriklynd.json-tools
 esbenp.prettier-vscode
@@ -9,9 +10,13 @@ formulahendry.auto-close-tag
 GitHub.vscode-pull-request-github
 GrapeCity.gc-excelviewer
 jpoissonnier.vscode-styled-components
+kumar-harsh.graphql-for-vscode
 mechatroner.rainbow-csv
+ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-fr
+ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 naumovs.theme-oceanicnext
-PeterJausovec.vscode-docker
+Prisma.vscode-graphql
 ryu1kn.partial-diff
+samverschueren.linter-xo

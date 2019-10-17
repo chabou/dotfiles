@@ -85,6 +85,9 @@ brew install ccat
 brew install httpie
 brew install telnet
 
+#AWS
+brew install awsebcli
+
 
 # Cask
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
