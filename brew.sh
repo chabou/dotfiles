@@ -14,7 +14,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade 
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -25,24 +25,19 @@ sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+# Install GNU `sed`
+brew install gnu-sed
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget 
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
+brew install vim 
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -60,7 +55,7 @@ brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install lua
 brew install lynx
 brew install p7zip
@@ -80,6 +75,7 @@ brew install fzf
 
 brew install nodejs 
 brew install yarn
+brew install n
 
 brew install ccat
 brew install httpie
@@ -88,23 +84,28 @@ brew install telnet
 #AWS
 brew install awsebcli
 
+#Ambler
+brew install gettext && brew link --force gettext
+
 
 # Cask
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap homebrew/cask
+brew cask install google-chrome
 brew cask install alfred
 brew cask install hyper
 brew cask install visual-studio-code
-brew cask install now
 brew cask install slack
 brew cask install whatsapp
 brew cask install google-drive-file-stream
 brew cask install spotify
 brew cask install docker
+brew cask install notion
+brew cask install spectacle
 
 
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 
 # Remove outdated versions from the cellar.
