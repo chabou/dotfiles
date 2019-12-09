@@ -52,3 +52,6 @@
   path = ~/.gitconfig.local
 [rebase]
 	autosquash = true
+[user]
+	name = CHaBou
+	email = chabou@delean.fr
