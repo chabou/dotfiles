@@ -100,6 +100,7 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 export LC_ALL=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
+alias git="LC_ALL=C git"
 export AMBLER_TRIGRAM=jdn
 export AMBLER_AUTH0_CLIENT_ID=X0YT81QfQkm1T7tiT_mFJwR4vhCZr8lG
 
