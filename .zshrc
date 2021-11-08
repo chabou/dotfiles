@@ -53,7 +53,7 @@ ZSH_THEME_TERM_TAB_TITLE_IDLE="%m %15<..<%~%<<"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew ruby jsontools osx rake-fast rsync sublime vagrant z zsh-syntax-highlighting)
+plugins=(git brew ruby jsontools osx rake-fast rsync z zsh-syntax-highlighting )
 
 # User configuration
 
@@ -93,10 +93,11 @@ export EDITOR='vim'
 # alias ohmyzsh="st ~/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
-prompt pure-now
+prompt pure
 
 alias rake='noglob rake'
-export PATH="$HOME/.yarn/bin:$PATH"
+export GOPATH=$HOME/go
+export PATH="$HOME/.yarn/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin:$PATH"
 
 export LC_ALL=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8

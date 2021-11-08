@@ -7,7 +7,6 @@
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
   //"javascript.format.enable": false,
   "prettier.eslintIntegration": true,
 
@@ -18,9 +17,7 @@
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
   "gitlens.historyExplorer.enabled": true,
   "breadcrumbs.enabled": true,
@@ -35,7 +32,16 @@
   "git.autofetch": true,
   "editor.renderWhitespace": "all",
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "prettier.printWidth": 120,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "editor.cursorSmoothCaretAnimation": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderControlCharacters": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.inlineSuggest.enabled": true,
+  "[typescript]": {}
 }

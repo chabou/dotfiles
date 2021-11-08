@@ -92,17 +92,18 @@ brew install gettext && brew link --force gettext
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap homebrew/cask
-brew cask install google-chrome
-brew cask install alfred
-brew cask install hyper
-brew cask install visual-studio-code
-brew cask install slack
-brew cask install whatsapp
-brew cask install google-drive-file-stream
-brew cask install spotify
-brew cask install docker
-brew cask install notion
-brew cask install spectacle
+brew install --cast google-chrome
+brew install --cast firefox
+brew install --cast raycast
+brew install --cast hyper
+brew install --cast visual-studio-code
+brew install --cast slack
+brew install --cast whatsapp
+brew install --cast google-drive-file-stream
+brew install --cast spotify
+brew install --cast docker
+brew install --cast notion
+brew install --cast spectacle
 
 
 brew tap homebrew/cask-fonts
@@ -112,4 +113,4 @@ brew cask install font-fira-code
 brew cleanup
 
 # Additional npm installs
-yarn global add pure-prompt-now
+yarn global add pure-prompt
