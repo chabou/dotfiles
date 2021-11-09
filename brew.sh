@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 # Install command-line tools using Homebrew.
@@ -89,25 +89,27 @@ brew install gettext && brew link --force gettext
 
 
 # Cask
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 brew tap homebrew/cask
-brew install --cast google-chrome
-brew install --cast firefox
-brew install --cast raycast
-brew install --cast hyper
-brew install --cast visual-studio-code
-brew install --cast slack
-brew install --cast whatsapp
-brew install --cast google-drive-file-stream
-brew install --cast spotify
-brew install --cast docker
-brew install --cast notion
-brew install --cast spectacle
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask raycast
+brew install --cask hyper
+brew install --cask visual-studio-code
+brew install --cask slack
+brew install --cask whatsapp
+brew install --cask google-drive
+brew install --cask spotify
+brew install --cask docker
+brew install --cask notion
+brew install --cask spectacle
+brew install --cask tunnelblick
+brew install --cask ngrok
+brew install --cask insomnia
+# brew install --cask noor
 
 
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install --cask font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup

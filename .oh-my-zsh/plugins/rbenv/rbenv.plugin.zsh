@@ -3,7 +3,7 @@ _homebrew-installed() {
 }
 
 FOUND_RBENV=0
-rbenvdirs=("$HOME/.rbenv" "/usr/local/rbenv" "/opt/rbenv" "/usr/local/opt/rbenv")
+rbenvdirs=("$HOME/.rbenv" "/usr/local/rbenv" "/opt/rbenv" "/opt/homebrew/opt/rbenv")
 if _homebrew-installed && rbenv_homebrew_path=$(brew --prefix rbenv 2>/dev/null); then
     rbenvdirs=($rbenv_homebrew_path "${rbenvdirs[@]}")
     unset rbenv_homebrew_path

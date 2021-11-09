@@ -6,7 +6,7 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-#ZSH_THEME="tjkirch"
+ZSH_THEME=""
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -57,7 +57,7 @@ plugins=(git brew ruby jsontools osx rake-fast rsync z zsh-syntax-highlighting )
 
 # User configuration
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin"
+  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/:$HOME/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
@@ -91,13 +91,13 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
-
+fpath+=$HOME/.pure
 autoload -U promptinit; promptinit
 prompt pure
 
 alias rake='noglob rake'
 export GOPATH=$HOME/go
-export PATH="$HOME/.yarn/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin:$PATH"
+export PATH="$HOME/.yarn/bin:/opt/homebrew/opt/go/libexec/bin:$GOPATH/bin:$PATH"
 
 export LC_ALL=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
