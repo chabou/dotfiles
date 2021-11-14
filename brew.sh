@@ -101,7 +101,7 @@ brew install --cask google-drive
 brew install --cask spotify
 brew install --cask docker
 brew install --cask notion
-brew install --cask spectacle
+brew install --cask rectangle
 brew install --cask tunnelblick
 brew install --cask ngrok
 brew install --cask insomnia
