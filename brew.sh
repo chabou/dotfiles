@@ -76,6 +76,7 @@ brew install fzf
 brew install nodejs 
 brew install yarn
 brew install n
+brew install deno
 
 brew install ccat
 brew install httpie
