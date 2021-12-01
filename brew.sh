@@ -81,6 +81,7 @@ brew install deno
 brew install ccat
 brew install httpie
 brew install telnet
+brew install tldr
 
 
 #AWS
