@@ -82,10 +82,12 @@ brew install ccat
 brew install httpie
 brew install telnet
 
+
 #AWS
 brew install awsebcli
 
 #Ambler
+brew install pass
 brew install gettext && brew link --force gettext
 
 
