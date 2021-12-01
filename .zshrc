@@ -57,7 +57,7 @@ plugins=(git brew ruby jsontools osx rake-fast rsync z zsh-syntax-highlighting p
 
 # User configuration
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/:$HOME/bin"
+  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/:$HOME/Library/Python/3.8/bin:$HOME/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
