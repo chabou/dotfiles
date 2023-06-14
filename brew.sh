@@ -109,6 +109,7 @@ brew install --cask rectangle
 brew install --cask tunnelblick
 brew install --cask ngrok
 brew install --cask insomnia
+brew install --cask audacity
 # brew install --cask noor
 
 
