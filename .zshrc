@@ -57,7 +57,7 @@ plugins=(git brew ruby jsontools osx rake-fast rsync z zsh-syntax-highlighting p
 
 # User configuration
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/:$HOME/Library/Python/3.8/bin:$HOME/bin"
+  export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin/:$HOME/Library/Python/3.9/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 
@@ -97,7 +97,10 @@ prompt pure
 
 alias rake='noglob rake'
 export GOPATH=$HOME/go
-export PATH="$HOME/.yarn/bin:/opt/homebrew/opt/go/libexec/bin:$GOPATH/bin:$PATH"
+export PATH="$HOME/.deno/bin:$HOME/.yarn/bin:/opt/homebrew/opt/go/libexec/bin:$GOPATH/bin:$HOME/.pyenv/:$PATH"
+
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
 
 export LC_ALL=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
@@ -106,3 +109,8 @@ export AMBLER_TRIGRAM=jdn
 export AMBLER_AUTH0_CLIENT_ID=X0YT81QfQkm1T7tiT_mFJwR4vhCZr8lG
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"

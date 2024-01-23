@@ -59,6 +59,7 @@ brew install imagemagick
 brew install lua
 brew install lynx
 brew install p7zip
+brew install rar
 brew install pigz
 brew install pv
 brew install rename
@@ -69,6 +70,7 @@ brew install testssl
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install ipcalc
 
 brew install z
 brew install fzf
