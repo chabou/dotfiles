@@ -91,7 +91,7 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
-fpath+=$HOME/.pure
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 

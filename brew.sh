@@ -74,6 +74,7 @@ brew install ipcalc
 
 brew install z
 brew install fzf
+brew install pure
 
 brew install nodejs 
 brew install yarn
